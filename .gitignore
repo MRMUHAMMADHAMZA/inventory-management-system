@@ -1,0 +1,15 @@
+# Third-party theme: install Astra from wordpress.org instead of committing it
+wp-content/themes/
+
+# Build artifacts (create with: cd wp-content/plugins && zip -r inventory-management.zip inventory-management)
+*.zip
+
+# Secrets and local config — never commit
+wp-config.php
+.env
+*.log
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
